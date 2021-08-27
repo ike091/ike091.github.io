@@ -7,11 +7,20 @@
 // Scripts
 // 
 
+function getRandomPicture()
+{	
+    // TODO: implement
+    return "assets/img/foggy-rocks-01.jpg";
+}
+
+
 window.addEventListener('DOMContentLoaded', event => {
+
+    document.getElementById("photoOfTheDay").src = getRandomPicture();
 
     // Navbar shrink function
     var navbarShrink = function () {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
+	const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
             return;
         }
