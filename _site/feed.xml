@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-31T20:20:33-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">title pending</title><subtitle>Hey, I&apos;m Isaak, a 4th-year computer science student attending the University of Utah. When I&apos;m not in the code zone, you can find me taking pictures, traveling, mountain biking, or rock climbing.
+</subtitle><author><name>Isaak</name></author><entry><title type="html">Monte Carlo Pi</title><link href="http://localhost:4000/monte-carlo-pi" rel="alternate" type="text/html" title="Monte Carlo Pi" /><published>2022-12-21T00:00:00-07:00</published><updated>2022-12-21T00:00:00-07:00</updated><id>http://localhost:4000/monte-carlo-pi</id><content type="html" xml:base="http://localhost:4000/monte-carlo-pi">&lt;p&gt;Recently, I took a scientific computing class, and during this class we talked
+about Monte-Carlo methods for calculating various things. One of the things you
+can compute with this method is pi, which I thought was pretty interesting.
+All you need to do this is a few geometry formulas and the ability to randomly
+generate points in space.&lt;/p&gt;
+
+&lt;p&gt;To start off, we’ll take a look at the volume for a sphere (a similar method
+could also be used with circles or higher-dimensional balls):&lt;/p&gt;
+
+\[V_{sphere} = \frac{4}{3} \pi r^3\]
+
+&lt;p&gt;And the volume of a cube that perfectly surrounds said sphere (where \(l = 2r\)):&lt;/p&gt;
+
+\[V_{cube} = (2r)^3 = 8r^3\]
+
+&lt;p&gt;Dividing the volumes of each shape results in a fraction of pi:&lt;/p&gt;
+
+\[\frac{V_{sphere}}{V_{cube}} =
+\frac{\frac{4}{3} \pi r^3}{8r^3} =
+\frac{1}{6}\pi\]
+
+&lt;p&gt;We can then plot random points inside this cube/sphere to estimate the relative
+volumes of each shape. We’ll count the number of points that land inside the
+sphere, versus the points that land inside the cube (which will be the same as
+the total number of points). Since we know that dividing these volumes will
+result in \(\frac{1}{6}\pi\), we can approximate pi itself with the following
+formula:&lt;/p&gt;
+
+\[\pi \approx 6 * \frac{points\ inside\ sphere}{total\ points}\]
+
+&lt;p&gt;I wrote up a simple script to do this in python, and it worked quite well.
+However, for higher sample sizes, things started to get extremely slow.
+I also happen to be learning Go for a (very interesting) distributed systems
+class I’m taking, and decided to rewrite this code in Go.
+Maybe I’d even be able to add some parallelism.&lt;/p&gt;
+
+&lt;p&gt;Right off the bat, the directly translated serial program in Go was almost an
+order of magnitude faster. Kind of an interesting illustration of how slow
+python can be compared to compiled languages (although the running times of
+these programs are probably largely dominated by random number generation, and
+I’d have to look into the respective random implementations to really say
+anything interesting).&lt;/p&gt;</content><author><name>Isaak Getz</name></author><category term="monte-carlo" /><category term="pi" /><summary type="html">Recently, I took a scientific computing class, and during this class we talked about Monte-Carlo methods for calculating various things. One of the things you can compute with this method is pi, which I thought was pretty interesting. All you need to do this is a few geometry formulas and the ability to randomly generate points in space.</summary></entry><entry><title type="html">Barn Door Star Tracker</title><link href="http://localhost:4000/star-tracker" rel="alternate" type="text/html" title="Barn Door Star Tracker" /><published>2022-12-20T00:00:00-07:00</published><updated>2022-12-20T00:00:00-07:00</updated><id>http://localhost:4000/star-tracker</id><content type="html" xml:base="http://localhost:4000/star-tracker">&lt;p&gt;To take clear long exposure images of the night sky with exposures times past 30
+seconds or so, some sort of tracking must be employed, since the Earth’s
+rotation will cause stars to blur/rotate across the frame.&lt;/p&gt;
+
+&lt;p&gt;Extremely expensive camera mounts exist that do this very well, but there’s a
+cheaper and simpler way to accomplish something similar.  It’s called a “barn
+door” star tracker. Essentially, it’s a hinge that slowly opens, exactly
+countering the rotation of the earth.&lt;/p&gt;
+
+&lt;p&gt;I searched through quite a few online tutorials of pre-existing barn door
+trackers, but since I had access to a 3D printer at school and some basic shop
+tools, I thought it would be fun to create my own.&lt;/p&gt;
+
+&lt;p&gt;Using a few custom 3D-printed parts, some wood, a hinge, a cheap stepper motor,
+and an Arduino, I was able to build a functioning star tracker:&lt;/p&gt;
+
+&lt;!-- ![Star tracker](/images/star_tracker_1.jpg) --&gt;
+&lt;p&gt;&lt;img src=&quot;/images/astrophotography/star_tracker_1.jpg&quot; alt=&quot;star tracker&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;</content><author><name>Isaak Getz</name></author><category term="photography" /><category term="stars" /><summary type="html">To take clear long exposure images of the night sky with exposures times past 30 seconds or so, some sort of tracking must be employed, since the Earth’s rotation will cause stars to blur/rotate across the frame.</summary></entry><entry><title type="html">Astrophotography</title><link href="http://localhost:4000/astrophotography" rel="alternate" type="text/html" title="Astrophotography" /><published>2022-12-18T00:00:00-07:00</published><updated>2022-12-18T00:00:00-07:00</updated><id>http://localhost:4000/astrophotography</id><content type="html" xml:base="http://localhost:4000/astrophotography">&lt;p&gt;Photography has long been something I’m interested in, and several years ago,
+after seeing some really stunning images of the night sky, I decided to attempt
+some astrophotography myself. I thought it would be interesting to chronicle my
+progress over time, so enjoy.&lt;/p&gt;
+
+&lt;p&gt;I started out with a Nikon D3100 borrowed from a
+family member, and my initial results weren’t exactly stunning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/astrophotography/first_astro_1.jpg&quot; alt=&quot;First attempt&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I then discovered a piece of software called
+&lt;a href=&quot;http://deepskystacker.free.fr/english/index.html&quot;&gt;Deep Sky Stacker&lt;/a&gt;.
+This software allows one to stack and combine hundreds of individual frames,
+achieving much lower noise, and essentially a much longer exposure time. It
+automatically compensates for the rotation of the earth, and slightly rotates
+all frames so that they align with each other. This was awesome, and using this
+software I was able to improve on my previous photos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/astrophotography/first_astro_2.jpg&quot; alt=&quot;second attempt&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometime later, I got a new camera, and this boosted the quality of my
+photography immensely. This camera is a Sony a6400, and it’s the same camera I
+use to this day. It’s got an APS-C sensor, which is not quite as big as a full
+frame sensor, but until I can upgrade, it does the job. When combined with the
+aforementioned stacking software, I’ve finally managed to produce some results
+that I’m proud of.
+&lt;img src=&quot;/images/astrophotography/milky_way_1.jpg&quot; alt=&quot;First attempt&quot; width=&quot;400&quot; /&gt;
+&lt;img src=&quot;/images/astrophotography/milky_way_2.jpg&quot; alt=&quot;First attempt&quot; width=&quot;400&quot; /&gt;
+&lt;img src=&quot;/images/astrophotography/milky_way_3.jpg&quot; alt=&quot;First attempt&quot; width=&quot;400&quot; /&gt;
+&lt;img src=&quot;/images/astrophotography/skyline_stars.jpg&quot; alt=&quot;First attempt&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve also been experimenting with creating composite images in Photoshop. This
+photo is the same stars that I captured earlier, overlaid with a shot of
+Delicate Arch in Utah that I took at dusk.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/astrophotography/arch_edit.jpg&quot; alt=&quot;First attempt&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the lighting may be a little off, but I’m looking forward to taking some
+more cool images to practice compositing with.&lt;/p&gt;</content><author><name>Isaak Getz</name></author><category term="photography" /><category term="astrophotography" /><summary type="html">Photography has long been something I’m interested in, and several years ago, after seeing some really stunning images of the night sky, I decided to attempt some astrophotography myself. I thought it would be interesting to chronicle my progress over time, so enjoy.</summary></entry></feed>

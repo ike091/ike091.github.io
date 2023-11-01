@@ -1,0 +1,74 @@
+navbar_entries:
+  # - title: about
+    # url: about
+
+  - title: posts
+    url: blog
+
+  - title: github
+    url: https://github.com/ike091
+
+  - title: resume
+    url: assets/pdfs/resume.pdf
+
+project_entries:
+  - title: Calculating Pi
+    url: monte-carlo-pi
+    desc: Calculating pi using a monte-carlo method, and other experiments.
+    highlight: WIP
+
+  - title: Star Tracker
+    url: star-tracker
+    desc: Barn-door star tracker for astrophotography.
+    highlight: Project
+
+  - title: Astrophotography
+    url: astrophotography
+    desc: Cool pictures I've taken of the night sky.
+
+
+old_project_entries:
+  # - title: Moonwalk
+    # url: https://github.com/abhinavs/moonwalk
+    # desc: A fast and minimalist Jekyll blog theme with clean dark mode
+
+footer_entries:
+  # - title: github
+    # url: https://github.com/ike091
+
+  # - title: feed
+    # url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
+
