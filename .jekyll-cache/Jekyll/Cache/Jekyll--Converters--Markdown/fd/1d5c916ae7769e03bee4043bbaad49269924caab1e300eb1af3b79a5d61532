@@ -1,6 +1,0 @@
-I"[<p>Recently, I took a scientific computing class, and during this class we talked
-about Monte-Carlo methods for calculating various things. One of the things you
-can compute with this method is pi, which I thought was pretty interesting.
-All you need to do this is a few geometry formulas and the ability to randomly
-generate points in space.</p>
-:ET

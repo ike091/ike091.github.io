@@ -1,2 +1,3 @@
 *.swp
 assets/video/*
+.jekyll-cache/*
