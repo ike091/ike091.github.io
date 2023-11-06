@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "en" }}" class="html" data-theme="{{ site.theme_config.appearance | default: "auto" }}">
-        {%- include head.html -%}
+        <!-- {%- include head.html -%} -->
+  <head>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+  </head>
   <body>
     <main class="page-content" aria-label="Content">
       <div class="w">
@@ -35,6 +40,4 @@
     {%- endif -%}
   </body>
 </html>
-
-<script type='text/javascript' async src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
