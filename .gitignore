@@ -1,3 +1,6 @@
 *.swp
 assets/video/*
-.jekyll-cache/*
+.jekyll-cache/
+.jekyll-metadata/
+.sass-cache/
+_site/

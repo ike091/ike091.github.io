@@ -5,7 +5,7 @@ tags: [photography, stars]
 title: Barn Door Star Tracker
 ---
 
-To take clear long exposure images of the night sky with exposures times past 30
+To take clear long exposure images of the night sky with exposure times past 30
 seconds or so, some sort of tracking must be employed, since the Earth's
 rotation will cause stars to blur/rotate across the frame.
 

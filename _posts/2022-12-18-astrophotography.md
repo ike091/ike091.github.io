@@ -32,8 +32,11 @@ frame sensor, but until I can upgrade, it does the job. When combined with the
 aforementioned stacking software, I've finally managed to produce some results
 that I'm proud of.
 <img src="/images/astrophotography/milky_way_1.jpg" alt="First attempt" width="400" />
+&nbsp;
 <img src="/images/astrophotography/milky_way_2.jpg" alt="First attempt" width="400" />
+&nbsp;
 <img src="/images/astrophotography/milky_way_3.jpg" alt="First attempt" width="400" />
+&nbsp;
 <img src="/images/astrophotography/skyline_stars.jpg" alt="First attempt" width="400" />
 
 I've also been experimenting with creating composite images in Photoshop. This
