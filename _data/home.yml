@@ -26,6 +26,10 @@ project_entries:
     url: astrophotography
     desc: Cool pictures I've taken of the night sky.
 
+  - title: Rocky Mountain Xeriscaping
+    url: https://rockymountainxeriscaping.com
+    desc: Website and photography I did for a friend's landscaping business.
+
 
 old_project_entries:
   # - title: Moonwalk
