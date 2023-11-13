@@ -4,3 +4,4 @@ assets/video/*
 .jekyll-metadata/
 .sass-cache/
 _site/
+.DS_Store
