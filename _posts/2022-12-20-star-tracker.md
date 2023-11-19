@@ -22,5 +22,5 @@ Using a few custom 3D-printed parts, some wood, a hinge, a cheap stepper motor,
 and an Arduino, I was able to build a functioning star tracker:
 
 <!-- ![Star tracker](/images/star_tracker_1.jpg) -->
-<img src="/images/astrophotography/star_tracker_1.jpg" alt="star tracker" width="400" />
+<img src="/assets/images/astrophotography/star_tracker_1.jpg" alt="star tracker" width="400" />
 

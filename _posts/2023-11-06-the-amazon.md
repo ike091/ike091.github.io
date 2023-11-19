@@ -6,21 +6,35 @@ title: the most remote place I've ever been
 published: true
 ---
 
+NOTE: this post is a work-in-progress, and will not make complete sense yet :)
+
 During my final year of college, my friend Kyle and I made the impulsive
 decision to book flights to Colombia to visit the Amazon rainforest - about 10
 days before said flights departed. Not the most last-minute flight I've bought,
-but still a pretty ambitious timeline considering the destination. We
-immediately started scrambling to get the necessary vaccines, anti-malarial
-medications, and supplies.
+but still a pretty ambitious timeline considering the destination. We then went
+into panic mode, scrambling to get the necessary vaccines, anti-malarial
+medications, and supplies we'd need.
 
-<!-- TODO: write about Mexico city layover -->
+<!-- Mexico city layover -->
+On our way to Colombia, we ended up having quite a long layover in Mexico City,
+so we stashed our bags and grabbed a couple buses towards the downtown area. One
+of the buses ended up being the wrong one, so after being dumped somewhere
+random, wandering around trying to get to several metro stations that all ended
+up being abandoned, we gave up and called an Uber. That took us to a really cool
+central square, where we had some awesome street tacos, listened to some live mariachi
+music, and wandered around for a while longer until we needed to get back to the
+airport.
 
-Our first stop was Bogota, the capital.
+<!-- TO-DO: add content -->
+Next stop, Bogota. We spent an amazing few days there, before boarding a
+domestic flight to an isolated town called Leticia. Leticia is not connected by
+road to the rest of Colombia, and so is only accessible by air or water, which
+is pretty wild.
 
-We landed in Leticia, and the heat and humidity immediately hit like a truck - a
-marked contrast to the cool air of Bogota. The airport is close enough to the
-town that you can walk between them, which we did. It's definitely a novel
-experience to do that; there aren't too many places you can.
+Upon landing in Leticia, the heat and humidity immediately hit like a truck - a
+marked contrast to the cool mountain air of Bogota. The airport is close enough
+to the town that you can walk between them, which we did. It's definitely a
+novel experience to do that; there aren't too many places you can.
 
 After decompressing at our hostel for a minute, we started wandering around the
 town. This was quite the perspective-shifting experience for me, as things were
@@ -42,9 +56,8 @@ shack alongside the river. For a heart-stopping second, I thought we'd screwed
 up, and were about to be robbed. It turned out we were just stopping to grab a
 two-liter soda bottle filled with gas. We reached the middle of the river,
 briefly crossing into Peru, and listened to Juan tell us about the river, the
-surrounding area, and life in Leticia. I followed along as best I could (we were
-exclusively speaking in Spanish), and was encouraged to discover I wasn't
-completely lost. 
+surrounding area, and life in Leticia. I followed along as best I could (he only
+spoke Spanish), and was encouraged to discover I wasn't completely lost. 
 
 <img src="/assets/images/amazon/juan-carlos-boat.jpg" alt="Juan Carlos' boat"
 width="400" />
@@ -55,14 +68,13 @@ Tourism here just feels a little different, and almost all the tourists speak
 Spanish.
 
 The next morning, we woke up and headed down to the docks again to take another
-boat down the river to a small town called Santa Sofia. There aren't too many
-roads in the area (in fact, Leticia is only accessible by plane or boat), and
-traveling on the river is the main way people seemed to get around. After a
-pleasant few hours on the river, we ended up getting off the boat and walking to
-the town with Francisco, a guy close to our own age who happened to be the mayor
-of Santa Sofia and four other surrounding communities. He told us a little bit
-about the communities there and we learned just how small Santa Sofia actually
-is, with a population of only 800 people.
+boat down the river to a small town called Santa Sofia. As previously mentioned,
+there aren't too many roads in the area, and traveling on the river is the main
+way people seemed to get around. After a pleasant few hours on the river, we got
+off the boat and walked to the town with Francisco, a guy close to our own age
+who happened to be the mayor of Santa Sofia and four other surrounding
+communities. He told us a little bit about the communities there and we learned
+just how small Santa Sofia actually is, with a population of only 800 people.
 
 Stepping into the village itself almost felt like going back in time, with 
 modern touches - like a cell tower - that seemed strangely incongruous with the
@@ -86,6 +98,7 @@ the (by this time, pitch-black) jungle for a while longer until we reached the
 hostel. Between the incredibly foreign surroundings and the darkness, this whole
 journey had felt incredibly surreal.
 
+
 I'm always amazed at the variety of fruits and vegetables that exist beyond
 what's common in the United States. We ate a delicious fruit called "sapote",
 which tasted like a combination of a mango and a pumpkin. Who even knew that
@@ -100,13 +113,17 @@ climbing.
 <img src="/assets/images/amazon/tree-climbing.jpg" alt="Our camp" width="400" />
 
 We also learned that a certain type of ant is an excellent natural insect
-repellent. We found thousands of these covering their home, a structure made of
-hardened mud attached to a tree.
+repellent (unfortunately, one that only lasts for 15-ish minutes). We found
+thousands of these ants covering their home, a nest-like structure made of
+hardened mud attached to a tree. To apply, we just placed our hands on the ant
+nest, waited a few seconds for hundreds of ants to crawl on our hands, and
+then rubbed our hands together, killing the ants and spreading the repellent.
+Pretty wild.
 
 
 After such a long walk in the rain, this was some of the best food I've tasted
-(also, seriously impressive that our guide managed to start a fire in these
-conditions).
+(also, seriously impressive that our guide managed to find fuel and start a fire
+in these conditions).
 
 <img src="/assets/images/amazon/cooking.jpg" alt="Our camp" width="400" />
 
@@ -122,10 +139,10 @@ And a glimpse into our camp setup:
 We had another solid dinner of chicken and rice, although I have to say, it was
 a little concerning eating chicken 36+ hours into a backpacking trip without
 refrigeration... oh well, my digestive problems didn't manifest until the plane
-ride home, so can't complain. (Can't say the same for Kyle though... poor guy.)
-He tells me getting up five times in the middle of the night in the middle of
-the Amazon rainforest is not pleasant, and comes with serious risk of being
-eaten by god-knows-what.
+ride home, so can't complain. (Can't say the same for Kyle though...) He tells
+me getting up five times in the middle of the night in the middle of the Amazon
+jungle is not pleasant, and comes with serious risk of being eaten by
+god-knows-what.
 
 On our way back to the reserve, the incessant rain had completely flooded the
 trail we originally took. After quite a lot of backtracking and more than a few
@@ -160,13 +177,14 @@ false starts, we found a path that wasn't too flooded.
 </div>
 
 
-I got a compliment from one of the other travelers for not being scared to speak
-Spanish incorrectly, so I guess that's a win?
-
-
-
-Well, that's all for now. This was definitely one of the wilder,
-perspective-shifting travel experiences I've had.
+I got a compliment from one of the other travelers for not being scared to just
+let rip with completely wrong Spanish that people somehow understand, so I guess
+that's a win? I've been kinda forced to do that on this trip, which has been
+really fun, and really good for my language abilities. A majority of the other
+places I've been when people hear my Spanish they immediately switch to English,
+so it was nice to discover I can in fact speak a useful amount. Anyway, that's
+all for now. This was definitely one of the wilder, more perspective-shifting
+travel experiences I've had.
 
 
 

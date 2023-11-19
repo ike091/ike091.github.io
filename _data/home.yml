@@ -1,15 +1,19 @@
 navbar_entries:
-  # - title: about
-    # url: about
-
   - title: posts
     url: blog
+
+  - title: travel
+    url: travel
+
+  - title: resume
+    url: assets/pdfs/resume.pdf
+
+  - title: cool sites
+    url: cool-sites
 
   - title: github
     url: https://github.com/ike091
 
-  - title: resume
-    url: assets/pdfs/resume.pdf
 
 project_entries:
   - title: Calculating Pi
@@ -20,7 +24,6 @@ project_entries:
   - title: Star Tracker
     url: star-tracker
     desc: Barn-door star tracker for astrophotography.
-    highlight: Project
 
   - title: Astrophotography
     url: astrophotography
@@ -29,6 +32,10 @@ project_entries:
   - title: Rocky Mountain Xeriscaping
     url: https://rockymountainxeriscaping.com
     desc: Website and photography I did for a friend's landscaping business.
+
+  - title: Photography Final Project
+    url: assets/pdfs/photographyFinal.pdf
+    desc: Photography class final project
 
 
 old_project_entries:
