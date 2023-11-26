@@ -21,11 +21,15 @@ project_entries:
     desc: Calculating pi using a monte-carlo method, and other experiments.
     highlight: WIP
 
+  - title: Wasatch Magzine
+    url: wasatch-magazine
+    desc: Some pictures I took that ended up in Wasatch Magzine!
+
   - title: Star Tracker
     url: star-tracker
     desc: Barn-door star tracker for astrophotography.
 
-  - title: Astrophotography
+- title: Astrophotography
     url: astrophotography
     desc: Cool pictures I've taken of the night sky.
 
@@ -35,7 +39,8 @@ project_entries:
 
   - title: Photography Final Project
     url: assets/pdfs/photographyFinal.pdf
-    desc: Photography class final project
+    desc: Final project from my college photography class
+
 
 
 old_project_entries:

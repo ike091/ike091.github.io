@@ -35,7 +35,7 @@ that I'm proud of.
 <style>
 .column {
     float: left;
-    width: 48%;
+    width: 48.6%;
     padding: 5px;
 }
 .row::after {
@@ -47,15 +47,15 @@ that I'm proud of.
 
 <div class="row">
   <div class="column">
-    <img style="padding-bottom: 10px;" src="/assets/images/astrophotography/milky_way_1.jpg" alt="First attempt" width="400" />
-    <img src="/assets/images/astrophotography/milky_way_2.jpg" alt="Milky way" width="400" />
+    <img style="padding-bottom: 10px;" src="/assets/images/astrophotography/milky_way_1.jpg" alt="First attempt" />
+    <img src="/assets/images/astrophotography/skyline_stars.jpg" alt="First attempt" />
   </div>
   <div class="column">
-    <img src="/assets/images/astrophotography/milky_way_3.jpg" alt="Milky way" width="400" />
+    <img src="/assets/images/astrophotography/milky_way_3.jpg" alt="Milky way" />
   </div>
 </div>
 
-<img src="/assets/images/astrophotography/skyline_stars.jpg" alt="First attempt" />
+<img src="/assets/images/astrophotography/milky_way_2.jpg" alt="Milky way" />
 
 I've also been experimenting with creating composite images in Photoshop. This
 photo is the same stars that I captured earlier, overlaid with a shot of
@@ -63,6 +63,6 @@ Delicate Arch in Utah that I took at dusk.
 
 <img src="/assets/images/astrophotography/arch_edit.jpg" alt="First attempt" width="400" />
 
-Some of the lighting may be a little off, but I'm looking forward to taking some
-more cool images to practice compositing with.
+I'm looking forward to taking some more cool images to practice compositing
+with.
 

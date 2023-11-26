@@ -136,6 +136,17 @@ And a glimpse into our camp setup:
 
 <img src="/assets/images/amazon/camp-1.jpg" alt="Our camp" width="400" />
 
+
+We woke up the next day, and trekked farther into the jungle. We found and ate
+some wild cacao fruit, which was super tasty. We also ate some some sort of worm
+our guide found inside a nut. It wasn't quite as tasty, unfortunately.
+
+Walking through the jungle is a wild feeling, especially this second day. The
+paths we're on feel even less worn, and we often have to wait for our guide to
+machete a path through the dense vegetation. In Kyle's words, "we're just
+following a random guy who only speaks Spanish as he chops a path through the
+jungle in incomprehensible ways." Kinda amusing to think about it that way. 
+
 We had another solid dinner of chicken and rice, although I have to say, it was
 a little concerning eating chicken 36+ hours into a backpacking trip without
 refrigeration... oh well, my digestive problems didn't manifest until the plane
@@ -145,12 +156,21 @@ jungle is not pleasant, and comes with serious risk of being eaten by
 god-knows-what.
 
 On our way back to the reserve, the incessant rain had completely flooded the
-trail we originally took. After quite a lot of backtracking and more than a few
-false starts, we found a path that wasn't too flooded.
+path we originally took. After quite a lot of backtracking and more than a few
+false starts, we found a path that wasn't \*too\* flooded.
 
 <!-- <img src="/assets/images/amazon/jonathon-wading.jpg" alt="Jonathon wading" width="400" /> -->
 
 <!-- <img src="/assets/images/amazon/wading.jpg" alt="Me wading" width="400" /> -->
+
+On our way back, we 
+
+After returning to Leticia, we thought it would be fun to go check out Brazil.
+The Brazilian-Columbian border divides Leticia from its sister city, Tabatinga.
+Crossing the border is simple, and is as simple as walking down the street. In
+Tabatinga, we found some incredible acai, and tried a few Brazilian snacks from
+the grocery store. It was strange needing to change money before these
+purchases.
 
 <style>
 .column {

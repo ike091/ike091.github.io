@@ -6,7 +6,7 @@ title: cool sites
 published: true
 ---
 
-_Some interesting blogs and websites I've found._
+_Some interesting and thought-provoking blogs and websites I've found._
 
 - [Pursue high-quality
   leisure](https://www.deprocrastination.co/blog/pursue-high-quality-leisure)
