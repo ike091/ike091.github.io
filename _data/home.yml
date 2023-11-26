@@ -29,7 +29,7 @@ project_entries:
     url: star-tracker
     desc: Barn-door star tracker for astrophotography.
 
-- title: Astrophotography
+  - title: Astrophotography
     url: astrophotography
     desc: Cool pictures I've taken of the night sky.
 
