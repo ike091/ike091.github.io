@@ -14,12 +14,15 @@ navbar_entries:
   - title: github
     url: https://github.com/ike091
 
-
 project_entries:
-  - title: Calculating Pi
-    url: monte-carlo-pi
-    desc: Calculating pi using a monte-carlo method, and other experiments.
-    highlight: WIP
+  # - title: Calculating Pi
+  #   url: monte-carlo-pi
+  #   desc: Calculating pi using a monte-carlo method, and other experiments.
+  #   highlight: WIP
+
+  - title: Wing It
+    url: wing-it
+    desc: Senior capstone design project
 
   - title: Wasatch Magzine
     url: wasatch-magazine
@@ -41,19 +44,17 @@ project_entries:
     url: assets/pdfs/photographyFinal.pdf
     desc: Final project from my college photography class
 
-
-
 old_project_entries:
   # - title: Moonwalk
-    # url: https://github.com/abhinavs/moonwalk
-    # desc: A fast and minimalist Jekyll blog theme with clean dark mode
+  # url: https://github.com/abhinavs/moonwalk
+  # desc: A fast and minimalist Jekyll blog theme with clean dark mode
 
 footer_entries:
   # - title: github
-    # url: https://github.com/ike091
+  # url: https://github.com/ike091
 
   # - title: feed
-    # url: feed.xml
+  # url: feed.xml
 
 misc_entries:
   - title: this is an example vertical list
@@ -86,5 +87,3 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-
-
