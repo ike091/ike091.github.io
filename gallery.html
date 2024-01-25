@@ -1,0 +1,152 @@
+
+<div class="grid">
+    <div class="grid-sizer"></div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC01663.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC01679.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC01747.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC02222.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC02227.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC02272.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC02839.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC03347-Edit.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC03537.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC03564.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC03591.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC03640.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC03980.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04135.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04277.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04340.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04348.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04362.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04405.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04443.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04453.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04598.jpg" />
+    </div>
+    <div class="grid-item">
+        <img src="/assets/images/bw/DSC04710.jpg" />
+    </div>
+</div>
+
+<style>
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+    background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+    /* width: 32.4%; */
+    float: left;
+    margin-bottom: 15px;
+}
+
+.grid-item img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+    .grid-item {
+        width: 32.4%;
+    }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .grid-item {
+        width: 49%;
+    }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .grid-item {
+        width: 99%
+    }
+}
+
+</style>
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script>
+    // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+    // init Masonry
+    var grid = document.querySelector('.grid');
+
+    var msnry = new Masonry( grid, {
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
+    gutter: 15
+    });
+
+    imagesLoaded( grid ).on( 'progress', function() {
+    // layout Masonry after each image loads
+    msnry.layout();
+    });
+</script>

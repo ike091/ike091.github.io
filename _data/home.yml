@@ -5,11 +5,14 @@ navbar_entries:
   - title: travel
     url: travel
 
-  - title: resume
-    url: assets/pdfs/resume.pdf
-
   - title: cool sites
     url: cool-sites
+
+  - title: b/w gallery
+    url: gallery
+
+  - title: resume
+    url: assets/pdfs/resume.pdf
 
   - title: github
     url: https://github.com/ike091
