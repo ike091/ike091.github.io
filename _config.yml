@@ -2,8 +2,7 @@ title: isaak getz
 author: Isaak
 url: https://ike091.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Hey, I'm Isaak.
-  I recently graudated from the University of Utah in computer science.
+  Hey, I'm Isaak, a computer science graudate from the University of Utah.
   When I'm not coding, you can find me taking pictures, traveling, mountain biking, or rock climbing.
 
 permalink: /:slug
